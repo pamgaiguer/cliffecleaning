@@ -40,7 +40,7 @@ export class AppComponent implements OnInit {
             const number = window.scrollY;
 
             if(this.isHome()){
-                if (number > 150 || window.pageYOffset > 150 ) {
+                if (number > 100 || window.pageYOffset > 100 ) {
                     navbar.classList.remove('navbar-transparent');
                     // console.log("removi a classe transparent");
                 } else {
@@ -67,7 +67,7 @@ export class AppComponent implements OnInit {
             titlee = titlee.slice( 1 );
         }
         if( titlee === '/home' ) {
-            console.log("estou na home");
+            // console.log("estou na home");
             return true;
         }
         else {

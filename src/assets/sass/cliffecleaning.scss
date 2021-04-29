@@ -1,0 +1,40 @@
+@import "cliffecleaning/variables";
+@import "cliffecleaning/mixins";
+
+@import "cliffecleaning/typography";
+
+// Core CSS
+@import "cliffecleaning/misc";
+@import "cliffecleaning/buttons";
+@import "cliffecleaning/inputs";
+@import "cliffecleaning/progress-bars";
+@import "cliffecleaning/sliders";
+@import "cliffecleaning/alerts";
+@import "cliffecleaning/labels";
+@import "cliffecleaning/tooltips-and-popovers";
+@import "cliffecleaning/sections";
+@import "cliffecleaning/checkbox-radio";
+@import "cliffecleaning/navbars";
+@import "cliffecleaning/images";
+@import "cliffecleaning/cards";
+@import "cliffecleaning/footers";
+
+
+// Bootstrap Switch
+@import "cliffecleaning/bootstrap-switch";
+
+// Fancy Stuff
+@import "cliffecleaning/dropdown";
+//
+// icons
+@import "cliffecleaning/icons";
+//
+@import "cliffecleaning/tabs-navs-pagination";
+@import "cliffecleaning/collapse";
+@import "cliffecleaning/carousel";
+@import "cliffecleaning/modal";
+//
+@import "cliffecleaning/responsive";
+@import "cliffecleaning/plugins/datetimepicker";
+@import "cliffecleaning/social-buttons";
+@import "cliffecleaning/examples";

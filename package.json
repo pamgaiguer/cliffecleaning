@@ -10,7 +10,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
-    "int:extract": "ng xi18n --output-path locale/"
+    "int:extract": "ng xi18n --output-path locale/",
+    "build:prod": "ng build --output-path dist"
   },
   "dependencies": {
     "@angular/animations": "11.2.12",
