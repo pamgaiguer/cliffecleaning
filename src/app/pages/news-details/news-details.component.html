@@ -1,0 +1,25 @@
+<div class="main news-details">
+    <div class="section section-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <div class="main-header text-center">
+                        <h3 i18n>{{news.title}}</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <a [routerLink]="['/news']" class="text-right d-block">GoBack Link</a>
+
+                    <img src="{{news.img}}" class="mx-auto d-block">
+                    <h2 class="text-center">{{news.title}}</h2>
+                    <small class="text-right d-block">{{news.date}}</small>
+                    <p class="space-top text-justify">{{news.description}}</p>
+                    <div class="space-top"></div>
+                    <a [routerLink]="['/news']" class="text-right d-block">GoBack Link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

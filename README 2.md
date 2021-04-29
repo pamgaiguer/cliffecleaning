@@ -1,6 +1,5 @@
-# cliffecleaning
+# template for band websites 
 
-website for a cleaning company
 Using the following technologies:
 
 - Angular (v. 9.1.0) with support a PWA
