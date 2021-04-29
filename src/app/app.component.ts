@@ -40,7 +40,7 @@ export class AppComponent implements OnInit {
             const number = window.scrollY;
 
             if(this.isHome()){
-                if (number > 100 || window.pageYOffset > 100 ) {
+                if (number > 30 || window.pageYOffset > 30 ) {
                     navbar.classList.remove('navbar-transparent');
                     // console.log("removi a classe transparent");
                 } else {

@@ -7,15 +7,11 @@ import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SignupComponent } from './signup/signup.component';
-import { NewsComponent } from './news/news.component';
-import { NewsDetailsComponent } from './news-details/news-details.component';
-import { DiscographyComponent } from './discography/discography.component';
 import { AboutComponent } from './about/about.component';
-import { TourComponent } from './tour/tour.component';
-import { StoreComponent } from './store/store.component';
-import { MediaComponent } from './media/media.component';
 import { ContactComponent } from './contact/contact.component';
-import { DiscographyDetailsComponent } from './discography-details/discography-details.component';
+import { StaffComponent } from './staff/staff.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { ClientsComponent } from './clients/clients.component';
 
 @NgModule({
     imports: [
@@ -28,15 +24,11 @@ import { DiscographyDetailsComponent } from './discography-details/discography-d
         HomeComponent,
         SignupComponent,
         ProfileComponent,
-        NewsComponent,
-        NewsDetailsComponent,
-        DiscographyComponent,
         AboutComponent,
-        TourComponent,
-        StoreComponent,
-        MediaComponent,
         ContactComponent,
-        DiscographyDetailsComponent
+        StaffComponent,
+        TestimonialsComponent,
+        ClientsComponent
     ]
 })
 export class PagesModule { }
