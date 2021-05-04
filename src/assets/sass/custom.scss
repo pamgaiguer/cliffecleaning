@@ -26,6 +26,30 @@ body{
         }
     }
 }
+
+//big fixes of the template
+button{
+    &:focus{
+        outline: none;
+        outline: none;
+    }
+}
+textarea{
+    resize: none;
+}
+
+.main-header{
+    margin-bottom: 30px;
+    padding: 25px 0;
+    
+    h3{
+        letter-spacing: +2px;
+        font-weight: 700;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+}
+
 .dropdown .dropdown-menu.dropdown-primary .dropdown-item:hover, 
 .dropdown .dropdown-menu.dropdown-primary .dropdown-item:focus,
 .dropdown-primary .dropdown-menu{
@@ -48,7 +72,7 @@ body{
 }
 
 .carousel-inner .carousel-item img{
-    filter: sepia(0.9);
+    filter: sepia(0.7);
 }
 
 .carousel-caption{
@@ -63,27 +87,13 @@ body{
         font-weight: 600;
     }
 }
-
-//big fixes of the template
-button{
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-indicators .active{
+    background-color: $gold-main;
+    &:hover,
     &:focus{
-        outline: none;
-        outline: none;
-    }
-}
-textarea{
-    resize: none;
-}
-
-.main-header{
-    margin-bottom: 30px;
-    padding: 25px 0;
-    
-    h3{
-        letter-spacing: +2px;
-        font-weight: 700;
-        font-size: 50px;
-        text-transform: uppercase;
+        background-color: $gold-main;
     }
 }
 
