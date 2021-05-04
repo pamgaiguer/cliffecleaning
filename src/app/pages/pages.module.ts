@@ -12,6 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 import { StaffComponent } from './staff/staff.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ClientsComponent } from './clients/clients.component';
+import { ServicesComponent } from './services/services.component';
 
 @NgModule({
     imports: [
@@ -28,7 +29,8 @@ import { ClientsComponent } from './clients/clients.component';
         ContactComponent,
         StaffComponent,
         TestimonialsComponent,
-        ClientsComponent
+        ClientsComponent,
+        ServicesComponent
     ]
 })
 export class PagesModule { }
