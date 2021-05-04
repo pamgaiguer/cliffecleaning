@@ -47,6 +47,23 @@ body{
     border-radius: 0;
 }
 
+.carousel-inner .carousel-item img{
+    filter: sepia(0.9);
+}
+
+.carousel-caption{
+    bottom: 400px;
+    z-index: 999;
+    left: 10%;
+    text-align: left;
+    text-shadow: 2px 2px 5px black;
+
+    p{
+        font-size: 52px;
+        font-weight: 600;
+    }
+}
+
 //big fixes of the template
 button{
     &:focus{

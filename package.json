@@ -12,7 +12,7 @@
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "int:extract": "ng xi18n --output-path locale/",
     "build:prod": "ng build --output-path dist",
-    "build:deploy": "ng build --output-path dist && firebase deploy"
+    "build:deploy": "npm ci &&  npm run build --output-path dist && firebase deploy"
   },
   "dependencies": {
     "@angular/animations": "11.2.12",
