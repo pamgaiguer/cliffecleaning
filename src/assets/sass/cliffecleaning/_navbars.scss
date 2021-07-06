@@ -16,13 +16,13 @@
     box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
 
     .navbar-logo{
-        width: 200px;
+        width: 225px;
     }
 
     .navbar-brand{
         font-weight: $font-weight-bold;
         margin: $navbar-margin-brand;
-        padding: 10px 0px;
+        // padding: 10px 0px;
         font-size: $font-size-base;
         color: $black-color;
         text-transform: uppercase;
@@ -163,7 +163,7 @@
 .navbar-transparent, [class*="bg"]{
     .navbar-brand{
         color: $white-color;
-        @include opacity(.9);
+        // @include opacity(.9);
 
         &:focus,
         &:hover{

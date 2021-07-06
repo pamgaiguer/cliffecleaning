@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
+import { servicesData } from '../../API';
 
 @Component({
   selector: 'app-services',
   templateUrl: './services.component.html',
-  styleUrls: ['./services.component.scss']
+  styleUrls: ['./services.component.scss'],
 })
 export class ServicesComponent implements OnInit {
+  services = servicesData;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
