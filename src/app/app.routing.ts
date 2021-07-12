@@ -9,13 +9,11 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { ServicesComponent } from './pages/services/services.component';
-import { SignupComponent } from './pages/signup/signup.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'components', component: ComponentsComponent },
   { path: 'profile', component: ProfileComponent },
-  { path: 'signup', component: SignupComponent },
   { path: 'nucleoicons', component: NucleoiconsComponent },
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
@@ -29,8 +27,11 @@ const routes: Routes = [
     BrowserModule,
     RouterModule.forRoot(routes, {
       useHash: false,
+      anchorScrolling: 'enabled',
+      scrollPositionRestoration: 'enabled',
+      onSameUrlNavigation: 'reload',
     }),
   ],
-  exports: [],
+  exports: [RouterModule],
 })
 export class AppRoutingModule {}

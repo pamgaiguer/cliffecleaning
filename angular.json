@@ -16,16 +16,11 @@
             "main": "src/main.ts",
             "tsConfig": "src/tsconfig.app.json",
             "polyfills": "src/polyfills.ts",
-            "aot":false,
-            "assets": [
-              "src/assets",
-              "src/favicon.ico",
-              "src/manifest.webmanifest"
-            ],
+            "aot": false,
+            "assets": ["src/assets", "src/favicon.ico", "src/manifest.webmanifest"],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/assets/sass/cliffecleaning.scss",
-              "src/assets/css/demo.css",
               "src/assets/css/nucleo-icons.css",
               "src/assets/sass/custom.scss"
             ],
@@ -51,7 +46,7 @@
               "serviceWorker": true,
               "ngswConfigPath": "ngsw-config.json"
             },
-            "pt":{
+            "pt": {
               "aot": true,
               "outputPath": "dist/",
               "i18nFile": "src/locale/messages.pt.xlf",
@@ -70,7 +65,7 @@
             "production": {
               "browserTarget": "pk2-angular:build:production"
             },
-            "pt":{
+            "pt": {
               "browserTarget": "pk2-angular:build:pt"
             }
           }
@@ -96,20 +91,13 @@
               "src/assets/css/nucleo-icons.css",
               "src/styles.scss"
             ],
-            "assets": [
-              "src/assets",
-              "src/favicon.ico",
-              "src/manifest.webmanifest"
-            ]
+            "assets": ["src/assets", "src/favicon.ico", "src/manifest.webmanifest"]
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": [
-              "src/tsconfig.app.json",
-              "src/tsconfig.spec.json"
-            ],
+            "tsConfig": ["src/tsconfig.app.json", "src/tsconfig.spec.json"],
             "exclude": []
           }
         }
@@ -130,9 +118,7 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": [
-              "e2e/tsconfig.e2e.json"
-            ],
+            "tsConfig": ["e2e/tsconfig.e2e.json"],
             "exclude": []
           }
         }
