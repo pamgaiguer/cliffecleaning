@@ -97,6 +97,14 @@ textarea {
     background-color: $gold-main;
   }
 }
+.aboutus {
+  .img-about {
+    width: 150px;
+  }
+  .media-body {
+    font-size: 18px;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .main-header {
