@@ -1,0 +1,122 @@
+<div class="row">
+  <div class="col-xs-12 col-md-12">
+    <div class="spacing"></div>
+    <div class="spacing"></div>
+    <h4 id="contactus" class="text-center">and contact us <strong>here!</strong></h4>
+    <div class="spacing"></div>
+    <div class="spacing"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+      <div class="contact">
+        <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
+          <div class="form-group">
+            <label>Name</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><i class="nc-icon nc-single-02"></i></span>
+              </div>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Name"
+                name="FullName"
+                formControlName="FullName"
+              />
+            </div>
+            <label>Email</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"> <i class="nc-icon nc-email-85"></i></span>
+              </div>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Email"
+                name="Email"
+                formControlName="Email"
+              />
+            </div>
+            <label>Phone Number</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"> <i class="nc-icon nc-mobile"></i></span>
+              </div>
+              <input
+                type="tel"
+                class="form-control"
+                placeholder="Phone number"
+                name="PhoneNumber"
+                formControlName="PhoneNumber"
+              />
+            </div>
+            <label>Message</label>
+            <textarea
+              class="form-control"
+              rows="4"
+              placeholder="Tell us your thoughts and feelings..."
+              name="Message"
+              formControlName="Message"
+            ></textarea>
+            <br />
+            <button
+              [disabled]="!FormData.valid"
+              type="submit"
+              class="btn btn-gold btn-lg btn-fill float-lg-right"
+            >
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-6">
+      <h4><strong>Cliffe Cleaning</strong></h4>
+      <br />
+      <address>
+        <ul class="list-unstyled">
+          <li><strong>ABN: 583 030 592 04</strong></li>
+          <li>5 Koopa Street - Clontarf, QLD 4019</li>
+          <li>Phone: <a href="tel:+61415602272">0415 602 272</a></li>
+        </ul>
+      </address>
+      <p>
+        <strong><span class="text-uppercase">Get a Free quote:</span></strong>
+        <br />
+        Let us know what cleaning you require and we will tailor a package to your needs. E.G. 3
+        Bed, 2 Bath, 1 kitchen, 1 living room.
+      </p>
+      <p>
+        <strong>Find us on social media too!</strong>
+      </p>
+
+      <ul class="list-unstyled">
+        <li>
+          <a
+            href="https://www.facebook.com/cliffecleaning"
+            rel="tooltip"
+            title="Like us on Facebook"
+            data-placement="bottom"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-square"></i>
+            Facebook
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/cliffecleaning"
+            rel="tooltip"
+            title="Follow us on Instagram"
+            data-placement="bottom"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+            Instagram
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
